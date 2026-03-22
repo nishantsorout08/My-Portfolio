@@ -76,5 +76,5 @@ I specialize in cloud platforms, CI/CD pipelines, containerization, and Infrastr
 ## 🤝 Connect With Me
 
 * 📧 Email: [nishantsorout07@gmail.com](mailto:nishantsorout07@gmail.com)
-* 💼 LinkedIn: *(add your link here)*
-* 🌐 Portfolio: *(add your deployed site link)*
+* 💼 LinkedIn: https://www.linkedin.com/in/nishantsorout08
+* 🌐 Portfolio: https://nishantsorout08.github.io/My-Portfolio/

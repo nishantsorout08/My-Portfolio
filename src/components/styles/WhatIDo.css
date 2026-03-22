@@ -34,26 +34,27 @@
 }
 .what-box-in {
   flex-direction: column;
-  height: 500px;
   margin-left: 200px;
   position: relative;
-  display: none;
+  display: flex;        
+  gap: 20px;           
+  height: auto;        
 }
+
 .what-content {
   width: 450px;
-  height: 33%;
-  min-height: 50%;
+  height: auto;        
+  min-height: auto;     
   transition: 0.5s;
-  /* border: 0.5px dashed rgba(255, 255, 255, 0.3); */
   position: relative;
-  padding: 50px;
+  padding: 30px;       
   box-sizing: border-box;
 }
 
 .what-noTouch:hover,
 .what-content-active {
-  min-height: 67%;
-  padding: 40px 50px;
+  transform: scale(1.03);  
+  padding: 30px;
 }
 
 .what-noTouch:hover ~ .what-content,

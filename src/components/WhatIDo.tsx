@@ -84,66 +84,72 @@ const WhatIDo = () => {
                 />
               </svg>
             </div>
-            <div className="what-corner"></div>
+            <div className="what-content-in">
+              <h3>CLOUD</h3>
+              <h4>Scalable Cloud Infrastructure</h4>
+              <p>
+                Designing and managing secure, scalable cloud environments on AWS.
+                From networking and compute to storage and CDN, I build production-ready
+                infrastructure with high availability and performance.
+              </p>
+              <h5>Skillset & tools</h5>
+              <div className="what-content-flex">
+                <div className="what-tags">AWS</div>
+                <div className="what-tags">EC2</div>
+                <div className="what-tags">S3</div>
+                <div className="what-tags">VPC</div>
+                <div className="what-tags">CloudFront</div>
+                <div className="what-tags">Route 53</div>
+                <div className="what-tags">RDS</div>
+                <div className="what-tags">IAM</div>
+              </div>
+              <div className="what-arrow"></div>
+            </div>
+            </div>
 
-            <div className="what-content-in">
-              <h3>FRONTEND</h3>
-              <h4>Building Interactive UIs</h4>
-              <p>
-                Crafting performant, responsive interfaces with modern frameworks.
-                From SPAs to micro-frontends, I deliver pixel-perfect experiences.
-              </p>
-              <h5>Skillset & tools</h5>
-              <div className="what-content-flex">
-                <div className="what-tags">React.js</div>
-                <div className="what-tags">Angular</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">Material UI</div>
-                <div className="what-tags">HTML5</div>
-                <div className="what-tags">CSS3</div>
+            <div
+              className="what-content what-noTouch"
+              ref={(el) => setRef(el, 1)}
+            >
+              <div className="what-border1">
+                <svg height="100%">
+                  <line
+                    x1="0"
+                    y1="100%"
+                    x2="100%"
+                    y2="100%"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeDasharray="6,6"
+                  />
+                </svg>
               </div>
-              <div className="what-arrow"></div>
-            </div>
-          </div>
-          <div
-            className="what-content what-noTouch"
-            ref={(el) => setRef(el, 1)}
-          >
-            <div className="what-border1">
-              <svg height="100%">
-                <line
-                  x1="0"
-                  y1="100%"
-                  x2="100%"
-                  y2="100%"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeDasharray="6,6"
-                />
-              </svg>
-            </div>
-            <div className="what-corner"></div>
-            <div className="what-content-in">
-              <h3>BACKEND</h3>
-              <h4>Scalable Server Architecture</h4>
-              <p>
-                Designing robust APIs and microservices. From CMS platforms to
-                complex business logic, I build backends that scale.
-              </p>
-              <h5>Skillset & tools</h5>
-              <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">NestJS</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">REST APIs</div>
-                <div className="what-tags">Microservices</div>
-                <div className="what-tags">Python</div>
-              </div>
-              <div className="what-arrow"></div>
+              
+              <div className="what-corner"></div>
+              <div className="what-content-in">
+                <h3>DEVOPS</h3>
+                <h4>CI/CD, Containers & Secure Deployments</h4>
+                <p>
+                  Building automated delivery pipelines and containerized deployment workflows.
+                  From GitHub Actions and Jenkins to Docker, ECS, and EKS, I focus on faster,
+                  secure, and highly available application delivery with observability built in.
+                </p>
+                <h5>Skillset & tools</h5>
+                <div className="what-content-flex">
+                  <div className="what-tags">GitHub Actions</div>
+                  <div className="what-tags">Jenkins</div>
+                  <div className="what-tags">Docker</div>
+                  <div className="what-tags">ECS</div>
+                  <div className="what-tags">EKS</div>
+                  <div className="what-tags">Prometheus</div>
+                  <div className="what-tags">Grafana</div>
+                  <div className="what-tags">CloudWatch</div>
+                  <div className="what-tags">SonarQube</div>
+                  <div className="what-tags">OWASP ZAP</div>
+                  <div className="what-tags">Bash</div>
+                  <div className="what-tags">Linux</div>
+                </div>
+                <div className="what-arrow"></div>
             </div>
           </div>
         </div>
